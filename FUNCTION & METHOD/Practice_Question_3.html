@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		
+	</title>
+</head>
+<body>
+<script type="text/javascript">
+	// 1.
+	// let marks=[62,33,64,99,96,45,99];
+
+	// let filteredmarks=marks.filter((val)=>{
+	// 	return val>90;
+	// })
+	// console.log(filteredmarks);
+
+	let no=prompt("Enter Number\n");
+	let arr=[];
+	for(let i=1;i<=no;i++)
+	{
+		// arr[i]=prompt();
+		arr[i-1]=i;
+	}
+	// /sum cal
+	console.log(arr);
+	let sum=arr.reduce((pre,cur)=>{
+         return (pre+cur);
+	})
+	console.log("Sum Of Number : ",sum);
+	// factorail  cal
+	let factorial=arr.reduce((pre,cur)=>{
+         return (pre*cur);
+	})
+	console.log("Factorial Of Number :"+factorial);
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+	background-color: pink;
+}
+#heading{
+			color: red;
+/*			text-decoration: line-through;*/
+			background-color: blue;
+ }
+ .classhead{
+			color: red;
+/*			text-decoration: line-through;*/
+			background-color: yellow;
+ }
+ 
+ button{
+ 	background-color: blue;
+ }
